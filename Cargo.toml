@@ -1,0 +1,20 @@
+[package]
+name = "this_is_package_name_must_be_changed"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+
+
+[profile.test]
+debug = 2
+
+[profile.dev]
+debug = 2
+
+[profile.release]
+debug = 1
+
+[profile.bench]
+debug = 1
